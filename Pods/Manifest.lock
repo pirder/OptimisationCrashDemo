@@ -1,0 +1,16 @@
+PODS:
+  - OptimisationPodLib (0.1.0)
+
+DEPENDENCIES:
+  - OptimisationPodLib (from `./OptimisationPodLib`)
+
+EXTERNAL SOURCES:
+  OptimisationPodLib:
+    :path: "./OptimisationPodLib"
+
+SPEC CHECKSUMS:
+  OptimisationPodLib: 462846bec564dddc3a77305d643b5bb99aa31119
+
+PODFILE CHECKSUM: c9e8b945a3ef08039fb2c1330a5ca05476b1d571
+
+COCOAPODS: 1.12.1

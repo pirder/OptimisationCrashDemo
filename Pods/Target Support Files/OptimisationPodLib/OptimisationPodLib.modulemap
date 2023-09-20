@@ -1,0 +1,6 @@
+framework module OptimisationPodLib {
+  umbrella header "OptimisationPodLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

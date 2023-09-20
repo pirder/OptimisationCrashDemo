@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import OptimisationPodLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        if let data = getSomeValueInVC() {
+            debugPrint("data \(data)")
+        }
+        OPUtil.prepareAll()
     }
-
-
 }
 
+
+extension ViewController {
+    private func getSomeValueInVC() -> LibData? {
+        PublicClass.getSomeValue()
+    }
+}
