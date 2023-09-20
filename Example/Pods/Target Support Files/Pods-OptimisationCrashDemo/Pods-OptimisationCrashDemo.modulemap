@@ -1,4 +1,4 @@
-framework module Pods_OptimisationCrashDemo {
+module Pods_OptimisationCrashDemo {
   umbrella header "Pods-OptimisationCrashDemo-umbrella.h"
 
   export *

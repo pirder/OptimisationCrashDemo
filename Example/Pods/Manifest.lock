@@ -1,0 +1,16 @@
+PODS:
+  - OptimisationPodLib (0.1.0)
+
+DEPENDENCIES:
+  - OptimisationPodLib
+
+SPEC REPOS:
+  https://github.com/pirder/cocoapod-repo.git:
+    - OptimisationPodLib
+
+SPEC CHECKSUMS:
+  OptimisationPodLib: 75fb6f8315a0ac799f5de98843cf11336c19cd73
+
+PODFILE CHECKSUM: f63e869a69212449bb481d76a720c8d065232ef7
+
+COCOAPODS: 1.12.1
