@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6865B56618F8C7BCC84CCAAAF78361BA"
-               BuildableName = "OptimisationPodLib"
+               BuildableName = "libOptimisationPodLib.a"
                BlueprintName = "OptimisationPodLib"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

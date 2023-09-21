@@ -11,17 +11,24 @@ import OptimisationPodLib
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
         if let data = getSomeValueInVC() {
-            debugPrint("data \(data)")
+            print("data \(data)")
         }
-        OPUtil.prepareAll()
+        
     }
 }
 
 
 extension ViewController {
-    private func getSomeValueInVC() -> LibData? {
-        PublicClass.getSomeValue()
+    private func getSomeValueInVC() -> String? {
+#if DEBUG
+        return ""
+#else
+        //If calling getSomeValue in PublicClass results in a "Build Failed" error.
+        return PublicClass.getSomeValue()
+#endif
     }
 }

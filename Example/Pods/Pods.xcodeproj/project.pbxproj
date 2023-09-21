@@ -6,25 +6,17 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		6865B56618F8C7BCC84CCAAAF78361BA /* OptimisationPodLib */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 2A93EE39AB782354375246949594CBA7 /* Build configuration list for PBXAggregateTarget "OptimisationPodLib" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = OptimisationPodLib;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		018741413424762CDD8B2D68FA6608DA /* OptimisationPodLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE55A6F74A69FC361658C2B74E4EFEF /* OptimisationPodLib-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5477DFBC497079679F99ADF54DFA8B3D /* Pods-OptimisationCrashDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 740B47D5F56E5C1464D8F0EA4EEF88AE /* Pods-OptimisationCrashDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B0CCE2B4D0745A3F4AA84C2C3656E4A /* InternalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3E8706BCFA6310FC0ABECA1BBA585 /* InternalClass.swift */; };
 		A141D3657A7D24F8E20FA3C2041D6197 /* Pods-OptimisationCrashDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2491899A3B6699333496382F659AEB /* Pods-OptimisationCrashDemo-dummy.m */; };
+		E0D28496822C1A41FB06024281159737 /* PublicClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103DB972BC60EDA715D82AED76C57B44 /* PublicClass.swift */; };
+		FD2ED7A89326475AEB7C4699614B7E55 /* OptimisationPodLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D0065BECA3E05B77D41236A453942 /* OptimisationPodLib-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46AFEC8035B1C116B9C3A8C0E1C61EDA /* PBXContainerItemProxy */ = {
+		46C55A15D8B7573000BBDD80D439F41D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,19 +27,33 @@
 
 /* Begin PBXFileReference section */
 		0D7FEC2709390323BAD8148AB331A2F5 /* Pods-OptimisationCrashDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OptimisationCrashDemo.modulemap"; sourceTree = "<group>"; };
+		103DB972BC60EDA715D82AED76C57B44 /* PublicClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublicClass.swift; path = OptimisationPodLib/Classes/PublicClass.swift; sourceTree = "<group>"; };
+		286D0065BECA3E05B77D41236A453942 /* OptimisationPodLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimisationPodLib-dummy.m"; sourceTree = "<group>"; };
+		297973661B575960ECDECCA84D5A123C /* OptimisationPodLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimisationPodLib.release.xcconfig; sourceTree = "<group>"; };
+		2FE55A6F74A69FC361658C2B74E4EFEF /* OptimisationPodLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimisationPodLib-umbrella.h"; sourceTree = "<group>"; };
+		3DD3E8706BCFA6310FC0ABECA1BBA585 /* InternalClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalClass.swift; path = OptimisationPodLib/Classes/InternalClass.swift; sourceTree = "<group>"; };
+		430DFFBC3F09C00EF5B1B7653DC0F758 /* OptimisationPodLib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = OptimisationPodLib; path = libOptimisationPodLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAA714F75DD4AAD94B4AF9BE8883DF3 /* Pods-OptimisationCrashDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OptimisationCrashDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		536D9E89E3C6D2CD709E156EED58E801 /* OptimisationPodLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimisationPodLib.debug.xcconfig; sourceTree = "<group>"; };
+		6E9034039F96442B577C6DD0815BD541 /* OptimisationPodLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimisationPodLib.modulemap; sourceTree = "<group>"; };
 		740B47D5F56E5C1464D8F0EA4EEF88AE /* Pods-OptimisationCrashDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OptimisationCrashDemo-umbrella.h"; sourceTree = "<group>"; };
-		7E118C1CC9A7E5E2440BB9485FF568E2 /* OptimisationPodLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimisationPodLib.release.xcconfig; sourceTree = "<group>"; };
 		803DC69748853A19626191177AA1DB2D /* Pods-OptimisationCrashDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OptimisationCrashDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A2491899A3B6699333496382F659AEB /* Pods-OptimisationCrashDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OptimisationCrashDemo-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4A2B0A546B3538D47CF652DC63B5754 /* OptimisationPodLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimisationPodLib-prefix.pch"; sourceTree = "<group>"; };
 		DC20821738D4D681FE199B6D0E5B91C0 /* Pods-OptimisationCrashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimisationCrashDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E0EC33F4A7DEC05A5F9CDDA3AE9E277D /* Pods-OptimisationCrashDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-OptimisationCrashDemo"; path = "libPods-OptimisationCrashDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312C68656591EB6289A551671DB87F1 /* OptimisationPodLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimisationPodLib.debug.xcconfig; sourceTree = "<group>"; };
 		FA2CD4F0EB7DC25D4BE7922489547FEF /* Pods-OptimisationCrashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OptimisationCrashDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF1C34A9B8AA947AE1B803EF0039C98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F66C38385E15F6D6FEA35F51FB41BE89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,23 +79,12 @@
 			path = "Target Support Files/Pods-OptimisationCrashDemo";
 			sourceTree = "<group>";
 		};
-		417329B179CF9FC8012287C7D4E22096 /* Support Files */ = {
+		65A69B5039BE1ADFFEB85F9D61932FB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				536D9E89E3C6D2CD709E156EED58E801 /* OptimisationPodLib.debug.xcconfig */,
-				7E118C1CC9A7E5E2440BB9485FF568E2 /* OptimisationPodLib.release.xcconfig */,
+				6D3D916B3273829353E7D79BB17F47F3 /* OptimisationPodLib */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/OptimisationPodLib";
-			sourceTree = "<group>";
-		};
-		5A5C6B194B71DEBC3F57CEF3A85564D3 /* OptimisationPodLib */ = {
-			isa = PBXGroup;
-			children = (
-				417329B179CF9FC8012287C7D4E22096 /* Support Files */,
-			);
-			name = OptimisationPodLib;
-			path = OptimisationPodLib;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		698BD90D38CA46AFA5C9A5887B9F2CAD /* Targets Support Files */ = {
@@ -100,12 +95,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A86EB91733971E542FC55A605165EF6F /* Pods */ = {
+		6D3D916B3273829353E7D79BB17F47F3 /* OptimisationPodLib */ = {
 			isa = PBXGroup;
 			children = (
-				5A5C6B194B71DEBC3F57CEF3A85564D3 /* OptimisationPodLib */,
+				3DD3E8706BCFA6310FC0ABECA1BBA585 /* InternalClass.swift */,
+				103DB972BC60EDA715D82AED76C57B44 /* PublicClass.swift */,
+				8FEE4142D78D1B799648A21D789DEA78 /* Support Files */,
 			);
-			name = Pods;
+			path = OptimisationPodLib;
+			sourceTree = "<group>";
+		};
+		8FEE4142D78D1B799648A21D789DEA78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E9034039F96442B577C6DD0815BD541 /* OptimisationPodLib.modulemap */,
+				286D0065BECA3E05B77D41236A453942 /* OptimisationPodLib-dummy.m */,
+				C4A2B0A546B3538D47CF652DC63B5754 /* OptimisationPodLib-prefix.pch */,
+				2FE55A6F74A69FC361658C2B74E4EFEF /* OptimisationPodLib-umbrella.h */,
+				E312C68656591EB6289A551671DB87F1 /* OptimisationPodLib.debug.xcconfig */,
+				297973661B575960ECDECCA84D5A123C /* OptimisationPodLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OptimisationPodLib";
+			sourceTree = "<group>";
+		};
+		BA82F60F353C07F912A968339ADA00EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430DFFBC3F09C00EF5B1B7653DC0F758 /* OptimisationPodLib */,
+				E0EC33F4A7DEC05A5F9CDDA3AE9E277D /* Pods-OptimisationCrashDemo */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -113,8 +133,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				A86EB91733971E542FC55A605165EF6F /* Pods */,
-				FE2DE2CD3BB3F65F0D4B45A7FF1C6548 /* Products */,
+				65A69B5039BE1ADFFEB85F9D61932FB0 /* Pods */,
+				BA82F60F353C07F912A968339ADA00EB /* Products */,
 				698BD90D38CA46AFA5C9A5887B9F2CAD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -126,17 +146,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE2DE2CD3BB3F65F0D4B45A7FF1C6548 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E0EC33F4A7DEC05A5F9CDDA3AE9E277D /* Pods-OptimisationCrashDemo */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		454D57EC1C6276C3ADC05DC587D0CF78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018741413424762CDD8B2D68FA6608DA /* OptimisationPodLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBE84D1BF8FB3444660A6369A0712EC7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,11 +179,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				01130D67EE5DD1342D4175250B7DEDB3 /* PBXTargetDependency */,
+				1781D3C6AF22002633921293C1CDB81C /* PBXTargetDependency */,
 			);
 			name = "Pods-OptimisationCrashDemo";
 			productName = "Pods-OptimisationCrashDemo";
 			productReference = E0EC33F4A7DEC05A5F9CDDA3AE9E277D /* Pods-OptimisationCrashDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6865B56618F8C7BCC84CCAAAF78361BA /* OptimisationPodLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E76581BBE65A6502006391CC6E3C9DA /* Build configuration list for PBXNativeTarget "OptimisationPodLib" */;
+			buildPhases = (
+				454D57EC1C6276C3ADC05DC587D0CF78 /* Headers */,
+				7CA0E1B51B1B4435CBB66533E1CE1C53 /* Sources */,
+				DF1C34A9B8AA947AE1B803EF0039C98C /* Frameworks */,
+				C51BE16EBEEE936B45885F8EA74C22F7 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimisationPodLib;
+			productName = OptimisationPodLib;
+			productReference = 430DFFBC3F09C00EF5B1B7653DC0F758 /* OptimisationPodLib */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +222,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FE2DE2CD3BB3F65F0D4B45A7FF1C6548 /* Products */;
+			productRefGroup = BA82F60F353C07F912A968339ADA00EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -193,6 +231,33 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C51BE16EBEEE936B45885F8EA74C22F7 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/OptimisationPodLib/OptimisationPodLib.modulemap",
+				"${PODS_ROOT}/Headers/Public/OptimisationPodLib/OptimisationPodLib-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/OptimisationPodLib-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/OptimisationPodLib/OptimisationPodLib.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/OptimisationPodLib/OptimisationPodLib-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08CBF148279B9E19AE7CA27E0D40ED8A /* Sources */ = {
@@ -203,35 +268,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CA0E1B51B1B4435CBB66533E1CE1C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2ED7A89326475AEB7C4699614B7E55 /* OptimisationPodLib-dummy.m in Sources */,
+				6B0CCE2B4D0745A3F4AA84C2C3656E4A /* InternalClass.swift in Sources */,
+				E0D28496822C1A41FB06024281159737 /* PublicClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01130D67EE5DD1342D4175250B7DEDB3 /* PBXTargetDependency */ = {
+		1781D3C6AF22002633921293C1CDB81C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OptimisationPodLib;
 			target = 6865B56618F8C7BCC84CCAAAF78361BA /* OptimisationPodLib */;
-			targetProxy = 46AFEC8035B1C116B9C3A8C0E1C61EDA /* PBXContainerItemProxy */;
+			targetProxy = 46C55A15D8B7573000BBDD80D439F41D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		452C2AE1F55B11012F0D8DF8BF015927 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 536D9E89E3C6D2CD709E156EED58E801 /* OptimisationPodLib.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		4792C4AE39A3A435B4B4879374B57899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC20821738D4D681FE199B6D0E5B91C0 /* Pods-OptimisationCrashDemo.debug.xcconfig */;
@@ -253,24 +311,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		71D83D8A0418AA07345F2A14DFC18BC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E118C1CC9A7E5E2440BB9485FF568E2 /* OptimisationPodLib.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -400,6 +440,57 @@
 			};
 			name = Debug;
 		};
+		D29E317B5CE0E16C4C676F9E05302DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297973661B575960ECDECCA84D5A123C /* OptimisationPodLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimisationPodLib/OptimisationPodLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/OptimisationPodLib/OptimisationPodLib.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OptimisationPodLib;
+				PRODUCT_NAME = OptimisationPodLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D484E817603B0E222761FA106640D288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E312C68656591EB6289A551671DB87F1 /* OptimisationPodLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimisationPodLib/OptimisationPodLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/OptimisationPodLib/OptimisationPodLib.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OptimisationPodLib;
+				PRODUCT_NAME = OptimisationPodLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		F0C24E806B22548CC01AD7CB3A792B8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA2CD4F0EB7DC25D4BE7922489547FEF /* Pods-OptimisationCrashDemo.release.xcconfig */;
@@ -426,11 +517,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A93EE39AB782354375246949594CBA7 /* Build configuration list for PBXAggregateTarget "OptimisationPodLib" */ = {
+		0E76581BBE65A6502006391CC6E3C9DA /* Build configuration list for PBXNativeTarget "OptimisationPodLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				452C2AE1F55B11012F0D8DF8BF015927 /* Debug */,
-				71D83D8A0418AA07345F2A14DFC18BC2 /* Release */,
+				D484E817603B0E222761FA106640D288 /* Debug */,
+				D29E317B5CE0E16C4C676F9E05302DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
